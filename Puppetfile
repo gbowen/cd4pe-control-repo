@@ -19,4 +19,4 @@ mod 'puppetlabs-puppet_conf', '0.6.0'
 
 mod 'jenkins',
   :git => 'https://github.com/voxpupuli/puppet-jenkins.git',
-  :tag => '2.0.0'
+  :tag => 'v2.0.0'
