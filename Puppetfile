@@ -16,7 +16,14 @@ mod 'puppetlabs-service', '1.2.0'
 mod 'puppetlabs-package', '1.1.0'
 mod 'puppetlabs-selinux_core', '1.0.4'
 mod 'puppetlabs-puppet_conf', '0.6.0'
+mod 'puppetlabs-docker', '3.9.1'
 
 mod 'jenkins',
   :git => 'https://github.com/voxpupuli/puppet-jenkins.git',
   :tag => 'v2.0.0'
+
+mod 'trlinkin-noop', '1.0.1'
+mod 'saz-sudo', '6.0.0'
+mod 'puppet-archive', '4.4.0'
+mod 'puppet-nginx', '1.1.0'
+mod 'stackstorm-st2', '1.5.0'
