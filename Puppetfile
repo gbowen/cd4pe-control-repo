@@ -17,6 +17,6 @@ mod 'puppetlabs-package', '1.1.0'
 mod 'puppetlabs-selinux_core', '1.0.4'
 mod 'puppetlabs-puppet_conf', '0.6.0'
 
-mod 'puppet-jenkins',
+mod 'jenkins',
   :git => 'https://github.com/voxpupuli/puppet-jenkins.git',
   :tag => '2.0.0'
