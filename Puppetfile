@@ -19,13 +19,17 @@ mod 'puppetlabs-puppet_conf', '0.6.0'
 mod 'puppetlabs-docker', '3.9.1'
 mod 'puppetlabs-translate', '2.1.0'
 mod 'puppetlabs-pe_gem', '0.2.0'
+mod 'puppetlabs-puppetserver_gem', '1.1.1'
+mod 'puppetlabs-puppet_agent', '3.0.2'
+mod 'puppetlabs-pwshlib', '0.4.1'
+mod 'puppetlabs-inifile', '4.1.0'
+mod 'puppetlabs-puppet_metrics_collector', '5.3.0'
 
-mod 'puppet-jenkins',
-  :git => 'https://github.com/voxpupuli/puppet-jenkins.git',
-  :tag => 'v2.0.0'
+mod 'puppet-jenkins', '2.0.0'
 
 mod 'trlinkin-noop', '1.0.1'
 mod 'saz-sudo', '6.0.0'
 mod 'puppet-archive', '4.4.0'
 mod 'puppet-nginx', '1.1.0'
+mod 'puppetlabs-haproxy', '4.2.0'
 
