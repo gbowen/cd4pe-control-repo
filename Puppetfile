@@ -24,6 +24,8 @@ mod 'puppetlabs-puppet_agent', '3.0.2'
 mod 'puppetlabs-pwshlib', '0.4.1'
 mod 'puppetlabs-inifile', '4.1.0'
 mod 'puppetlabs-puppet_metrics_collector', '5.3.0'
+mod 'puppetlabs-puppet_authorization', '0.5.0'
+mod 'puppetlabs-hocon', '1.1.0'
 
 mod 'puppet-jenkins', '2.0.0'
 
@@ -32,6 +34,7 @@ mod 'saz-sudo', '6.0.0'
 mod 'puppet-archive', '4.4.0'
 mod 'puppet-nginx', '1.1.0'
 mod 'puppetlabs-haproxy', '4.2.0'
+mod 'pltraining-rbac', '0.0.9'
 
 mod 'stackstorm-st2', '1.5.0'
 mod 'puppet-nodejs', '7.0.1'
