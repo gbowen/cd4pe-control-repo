@@ -3,7 +3,7 @@ mod 'puppetlabs-concat', '6.2.0'
 mod 'puppetlabs-ntp', '8.2.0'
 mod 'puppetlabs-apt', '7.3.0'
 mod 'puppetlabs-vcsrepo', '3.1.0'
-#mod 'puppetlabs-powershell', '3.0.1'
+mod 'puppetlabs-powershell', '3.0.1'
 mod 'puppetlabs-firewall', '2.2.0'
 mod 'puppetlabs-motd', '4.1.0'
 mod 'puppetlabs-reboot', '2.4.0'
@@ -17,8 +17,10 @@ mod 'puppetlabs-package', '1.1.0'
 mod 'puppetlabs-selinux_core', '1.0.4'
 mod 'puppetlabs-puppet_conf', '0.6.0'
 mod 'puppetlabs-docker', '3.9.1'
+mod 'puppetlabs-translate', '2.1.0'
+mod 'puppetlabs-pe_gem', '0.2.0'
 
-mod 'jenkins',
+mod 'puppet-jenkins',
   :git => 'https://github.com/voxpupuli/puppet-jenkins.git',
   :tag => 'v2.0.0'
 
@@ -26,4 +28,4 @@ mod 'trlinkin-noop', '1.0.1'
 mod 'saz-sudo', '6.0.0'
 mod 'puppet-archive', '4.4.0'
 mod 'puppet-nginx', '1.1.0'
-mod 'stackstorm-st2', '1.5.0'
+
