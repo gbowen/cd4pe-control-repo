@@ -13,8 +13,6 @@ class profile::base {
     include ::profile::base::rhel
   }
 
-  include ::gcc
-
   $packages = [
     'tree',
     'vim',
