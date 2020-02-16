@@ -1,5 +1,5 @@
 #
 class role::puppet_master {
   include ::profile::base
-  include ::profile::compile::master
+  include ::profile::puppet_master
 }
