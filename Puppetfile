@@ -28,6 +28,8 @@ mod 'puppetlabs-puppet_authorization', '0.5.0'
 mod 'puppetlabs-hocon', '1.1.0'
 
 mod 'puppet-jenkins', '2.0.0'
+mod 'puppetlabs-java', '6.1.0'
+mod 'puppet-zypprepo', '2.2.2'
 
 mod 'trlinkin-noop', '1.0.1'
 mod 'saz-sudo', '6.0.0'
