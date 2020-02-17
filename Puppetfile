@@ -52,3 +52,6 @@ mod 'puppet-python', '4.0.0'
 mod 'stahnma-epel', '2.0.0'
 mod 'jamtur01-httpauth', '0.0.5'
 
+mod 'jdowning-awscli', '2.2.0'
+mod 'puppetlabs-amazon_aws', '0.3.0'
+
