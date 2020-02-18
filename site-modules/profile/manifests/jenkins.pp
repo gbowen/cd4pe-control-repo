@@ -13,6 +13,19 @@ class profile::jenkins {
 
   include ::profile::nginx
 
+    # Create basic firewall rules
+  firewall { '100 allow http access':
+    dport  => 80,
+    proto  => tcp,
+    action => accept,
+  }
+
+  firewall { '102 allow puppet access':
+    dport  => 8140,
+    proto  => tcp,
+    action => accept,
+  }
+
   # Include a reverse proxy in front
   nginx::resource::server { $::hostname:
     listen_port    => 80,
