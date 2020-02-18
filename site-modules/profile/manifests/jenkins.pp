@@ -20,8 +20,8 @@ class profile::jenkins {
     action => accept,
   }
 
-  firewall { '102 allow puppet access':
-    dport  => 8140,
+  firewall { '104 allow puppet-pxp access':
+    dport  => 8142,
     proto  => tcp,
     action => accept,
   }
