@@ -20,12 +20,6 @@ class profile::jenkins {
     action => accept,
   }
 
-  firewall { '104 allow puppet-pxp access':
-    dport  => 8142,
-    proto  => tcp,
-    action => accept,
-  }
-
   # Include a reverse proxy in front
   nginx::resource::server { $::hostname:
     listen_port    => 80,

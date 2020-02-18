@@ -7,10 +7,4 @@ class profile::dev_host {
     version => 'latest',
   }
 
-  firewall { '104 allow puppet-pxp access':
-    dport  => 8142,
-    proto  => tcp,
-    action => accept,
-  }
-
 }
