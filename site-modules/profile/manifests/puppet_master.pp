@@ -23,6 +23,12 @@ class profile::puppet_master {
     action => accept,
   }
 
+  firewall { '104 allow pxp-agent access':
+    dport  => 8142,
+    proto  => tcp,
+    action => accept,
+  }
+
   $server_gems.each |$gem| {
     package { "${gem}_server":
       ensure   => present,
